@@ -1,6 +1,6 @@
 {
 	"name": "daily-tarot",
-	"displayName": "daily-tarot",
+	"displayName": "Daily Tarot",
 	"description": "Get your daily tarot reading - Prisma Vision",
 	"version": "0.0.1",
 	"publisher": "raptazure",
@@ -17,7 +17,7 @@
 	"contributes": {
 		"commands": [{
 			"command": "tarot.today",
-			"title": "Today Tarot Reading"
+			"title": "Daily Tarot: Draw a Card"
 		}]
 	},
 	"scripts": {
