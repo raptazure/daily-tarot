@@ -1,4 +1,4 @@
-# daily-tarot
+# daily-tarot 
 
 
 
@@ -27,7 +27,7 @@
 
 ### 1.0.0
 
-Initial release of ...
+Initial release 
 
 
 **Enjoy!**
