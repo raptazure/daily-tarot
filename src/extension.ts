@@ -1,10 +1,18 @@
 import * as vscode from 'vscode';
-import { DailyTarot } from './daily-tarot';
+import { DrawCards } from './drawCards';
+import { askQuestions } from './askQuestions'
 
 export function activate(context: vscode.ExtensionContext) {
-	context.subscriptions.push(vscode.commands.registerCommand('tarot.today', () => {
-		DailyTarot.show(context);
-	}));
+	const drawCards = vscode.commands.registerCommand('tarot.today', () => {
+		DrawCards.show(context);
+	});
+
+	const showInput = vscode.commands.registerCommand('tarot.ask', () => {
+		askQuestions(context);
+	});
+
+	context.subscriptions.push(showInput);
+	context.subscriptions.push(drawCards);
 
 }
 
