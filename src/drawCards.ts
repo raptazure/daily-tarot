@@ -26,7 +26,5 @@ export class DrawCards {
 
       this.panel.onDidDispose(() => this.panel = undefined);
     }
-
   }
-
 }

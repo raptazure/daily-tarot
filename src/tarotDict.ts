@@ -6,7 +6,7 @@ export const tarotDict = {
   '3': 'The Empress',
   '4': 'The Emperor',
   '5': 'The Hierophant',
-  '6': 'The Lovers',
+  '6': 'The Lover',
   '7': 'The Chariot',
   '8': 'Strength',
   '9': 'The Hermit',

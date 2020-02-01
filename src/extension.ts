@@ -1,5 +1,4 @@
 import * as vscode from 'vscode';
-import { DrawCards } from './drawCards';
 import { askQuestions } from './askQuestions';
 import { dailyTarot } from './dailyTarot';
 
@@ -14,7 +13,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 	context.subscriptions.push(tarotAsk);
 	context.subscriptions.push(tarotToday);
-
 }
 
 
