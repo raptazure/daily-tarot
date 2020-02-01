@@ -21,5 +21,20 @@ export const tarotDict = {
   '18': 'The Moon',
   '19': 'The Sun',
   '20': 'Judgement',
-  '21': 'The World'
+  '21': 'The World',
+  '22': 'Ace of Wands',
+  '23': 'Two of Wands',
+  '24': 'Three of Wands',
+  '25': 'Four of Wands',
+  '26': 'Five of Wands',
+  '27': 'Six of Wands',
+  '28': 'Seven of Wands',
+  '29': 'Eight of Wands',
+  '30': 'Nine of Wands',
+  '31': 'Ten of Wands',
+  '32': 'Page of Wands',
+  '33': 'Knight of Wands',
+  '34': 'Queen of Wands',
+  '35': 'King of Wands',
+  '36': 'Ace of Chalices'
 };
