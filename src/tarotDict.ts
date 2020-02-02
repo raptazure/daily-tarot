@@ -36,5 +36,18 @@ export const tarotDict = {
   '33': 'Knight of Wands',
   '34': 'Queen of Wands',
   '35': 'King of Wands',
-  '36': 'Ace of Chalices'
+  '36': 'Ace of Chalices',
+  '37': 'Two of Chalices',
+  '38': 'Three of Chalices',
+  '39': 'Four of Chalices',
+  '40': 'Five of Chalices',
+  '41': 'Six of Chalices',
+  '42': 'Seven of Chalices',
+  '43': 'Eight of Chalices',
+  '44': 'Nine of Chalices',
+  '45': 'Ten of Chalices',
+  '46': 'Page of Chalices',
+  '47': 'Knight of Chalices',
+  '48': 'Queen of Chalices',
+  '49': 'King of Chalices'
 };
