@@ -49,5 +49,19 @@ export const tarotDict = {
   '46': 'Page of Chalices',
   '47': 'Knight of Chalices',
   '48': 'Queen of Chalices',
-  '49': 'King of Chalices'
+  '49': 'King of Chalices',
+  '50': 'Ace of Swords',
+  '51': 'Two of Swords',
+  '52': 'Three of Swords',
+  '53': 'Four of Swords',
+  '54': 'Five of Swords',
+  '55': 'Six of Swords',
+  '56': 'Seven of Swords',
+  '57': 'Eight of Swords',
+  '58': 'Nine of Swords',
+  '59': 'Ten of Swords',
+  '60': 'Page of Swords',
+  '61': 'Knight of Swords',
+  '62': 'Queen of Swords',
+  '63': 'King of Swords'
 };
