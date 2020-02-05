@@ -1,9 +1,12 @@
 # Daily Tarot
 
 > _Prisma Visions Tarot - Unofficial Extension_ <br/>
-> **Get this amazing tarot deck [Here](https://www.jamesreadsmerch.com/products/prismavisions)**
+> [Star on GitHub](https://github.com/Raptazure/daily-tarot)  |  [Download from Marketplace](https://marketplace.visualstudio.com/items?itemName=raptazure.daily-tarot)  
+
 
 <img src="https://github.com/Raptazure/daily-tarot/blob/master/images/header.jpg?raw=true" width="350px">
+
+> **Get this amazing tarot deck [Here](https://www.jamesreadsmerch.com/products/prismavisions)**
 
 ## Journey of the Tarot
 
