@@ -63,5 +63,19 @@ export const tarotDict = {
   '60': 'Page of Swords',
   '61': 'Knight of Swords',
   '62': 'Queen of Swords',
-  '63': 'King of Swords'
+  '63': 'King of Swords',
+  '64': 'Ace of Pentacles',
+  '65': 'Two of Pentacles',
+  '66': 'Three of Pentacles',
+  '67': 'Four of Pentacles',
+  '68': 'Five of Pentacles',
+  '69': 'Six of Pentacles',
+  '70': 'Seven of Pentacles',
+  '71': 'Eight of Pentacles',
+  '72': 'Nine of Pentacles',
+  '73': 'Ten of Pentacles',
+  '74': 'Page of Pentacles',
+  '75': 'Knight of Pentacles',
+  '76': 'Queen of Pentacles',
+  '77': 'King of Pentacles'
 };

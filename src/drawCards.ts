@@ -17,7 +17,7 @@ export class DrawCards {
     } else {
       this.panel = vscode.window.createWebviewPanel('dailyTarot', 'Daily Tarot', vscode.ViewColumn.Two, {});
 
-      DrawCards.selector = -1 + Math.floor(Math.random() * 65);
+      DrawCards.selector = -1 + Math.floor(Math.random() * 79);
 
       if (this.panel !== undefined) {
         const filePath: vscode.Uri = vscode.Uri.file(path.join(context.extensionPath, 'src', 'pages', `${DrawCards.selector}.html`));
