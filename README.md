@@ -3,7 +3,7 @@
 > _Prisma Visions Tarot - Unofficial Extension_ <br/>
 > **Get this amazing tarot deck [Here](https://www.jamesreadsmerch.com/products/prismavisions)**
 
-<img src="images/header.jpg" width="350px">
+<img src="https://github.com/Raptazure/daily-tarot/blob/master/images/header.jpg?raw=true" width="350px">
 
 ## Journey of the Tarot
 
@@ -13,7 +13,7 @@
 
 ## Quick Start
 
-![](images/demo.gif)
+![](https://github.com/Raptazure/daily-tarot/blob/master/images/demo.gif?raw=true)
 
 ## Features
 
@@ -23,7 +23,7 @@
 - Status bar:
   - Show your daily card
   - Click on it to ask a question  
-![](/images/status.png)
+![](https://github.com/Raptazure/daily-tarot/blob/master/images/status.png?raw=true)
 
 ## Requirements
 
