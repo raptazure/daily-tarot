@@ -33,7 +33,7 @@
 - Visual Studio Code: 1.41.0+
 - Internet connection
 
-## About Prisma Vsion
+## About Prisma Visions
 
 - This deck is illustrated, designed and edited by James R. Eads. The extensive guide is written by Katherine Tombs.
 - I own the 5th edition of this deck and love it a lot. It gives me many suggestions to learn more about my subconscious and feelings, thus helping me become better.
