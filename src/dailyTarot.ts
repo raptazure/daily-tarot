@@ -7,19 +7,18 @@ let statusBar: vscode.StatusBarItem | undefined;
 export function dailyTarot(context: vscode.ExtensionContext) {
   if (statusBar === undefined) {
     DrawCards.show(context);
-  }
+    const index = String(DrawCards.selector);
+    vscode.window.showInformationMessage(`${tarotDict[index]}`);
 
-  const index = String(DrawCards.selector);
-  vscode.window.showInformationMessage(`${tarotDict[index]}`);
-
-  if (statusBar !== undefined) {
-    statusBar.text = "🔮Daily Card: " + tarotDict[index];
-  } else {
     statusBar = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
     statusBar.text = "🔮Daily Card: " + tarotDict[index];
     statusBar.show();
+  } else {
+    vscode.window.showInformationMessage(statusBar.text);
+  }
 
-    // single click
+  // single click
+  if (statusBar !== undefined) {
     statusBar.command = 'tarot.ask';
   }
 }
