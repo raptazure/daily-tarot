@@ -5,7 +5,9 @@ import { tarotDict } from './tarotDict'
 let statusBar: vscode.StatusBarItem | undefined;
 
 export function dailyTarot(context: vscode.ExtensionContext) {
-  DrawCards.show(context);
+  if (statusBar === undefined) {
+    DrawCards.show(context);
+  }
 
   const index = String(DrawCards.selector);
   vscode.window.showInformationMessage(`${tarotDict[index]}`);

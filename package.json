@@ -2,7 +2,7 @@
 	"name": "daily-tarot",
 	"displayName": "Daily Tarot",
 	"description": "Get your daily tarot reading - Prisma Visions",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"publisher": "raptazure",
 	"icon": "images/icon.jpg",
 	"engines": {

@@ -13,18 +13,17 @@ export class DrawCards {
       vscode.window.activeTextEditor.viewColumn : undefined;
 
     if (this.panel) {
-      this.panel.reveal(columnToShowIn);
-    } else {
-      this.panel = vscode.window.createWebviewPanel('dailyTarot', 'Daily Tarot', vscode.ViewColumn.Two, {});
-
-      DrawCards.selector = -1 + Math.floor(Math.random() * 79);
-
-      if (this.panel !== undefined) {
-        const filePath: vscode.Uri = vscode.Uri.file(path.join(context.extensionPath, 'src', 'pages', `${DrawCards.selector}.html`));
-        this.panel.webview.html = fs.readFileSync(filePath.fsPath, 'utf8');
-      }
-
-      this.panel.onDidDispose(() => this.panel = undefined);
+      this.panel.dispose();
     }
+
+    this.panel = vscode.window.createWebviewPanel('dailyTarot', 'Daily Tarot', vscode.ViewColumn.Two, {});
+    DrawCards.selector = -1 + Math.floor(Math.random() * 79);
+
+    if (this.panel !== undefined) {
+      const filePath: vscode.Uri = vscode.Uri.file(path.join(context.extensionPath, 'src', 'pages', `${DrawCards.selector}.html`));
+      this.panel.webview.html = fs.readFileSync(filePath.fsPath, 'utf8');
+    }
+
+    this.panel.onDidDispose(() => this.panel = undefined);
   }
 }
