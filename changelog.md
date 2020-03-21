@@ -14,4 +14,4 @@
 - When `Daily Card` status bar is already there and function `Draw a Card` is called again, show the name of previous card instead of drawing a new card.
 
 ### 0.1.5
-- The three card spread is available now: new command - `Daily Card: The Vision`.
+- The three card spread is available now: new command - `Daily Tarot: The Vision`.

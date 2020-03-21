@@ -63,7 +63,7 @@
 
 ### 0.1.5
 
-- The three card spread is available now: new command - `Daily Card: The Vision`.
+- The three card spread is available now: new command - `Daily Tarot: The Vision`.
 
 **Enjoy!**
 
