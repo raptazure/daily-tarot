@@ -20,9 +20,14 @@
 
 ## Features
 
-- Two Commands: 
+- Three Commands: 
   - `Draw a Card` - card of the day
   - `Ask a Question` - input box will convey your will
+  - `The Vision` - the three card spread: draw three cards one by one
+    - The past - The present - The future
+    - The situation - The action - The outcome
+    - Current position - Aspiration - The path to take
+    - And more meanings as you wish...
 - Status bar:
   - Show your daily card
   - Click on it to ask a question  
@@ -55,6 +60,10 @@
 
 - Fix bug: `Daily Crad` status bar cannot be influenced by function `Ask a Question` now.
 - When `Daily Card` status bar is already there and function `Draw a Card` is called again, show the name of previous card instead of drawing a new card.
+
+### 0.1.5
+
+- The three card spread is available now: new command - `Daily Card: The Vision`.
 
 **Enjoy!**
 

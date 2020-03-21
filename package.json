@@ -2,7 +2,7 @@
 	"name": "daily-tarot",
 	"displayName": "Daily Tarot",
 	"description": "Get your daily tarot reading - Prisma Visions",
-	"version": "0.1.3",
+	"version": "0.1.5",
 	"publisher": "raptazure",
 	"icon": "images/icon.jpg",
 	"engines": {
@@ -26,7 +26,8 @@
 	},
 	"activationEvents": [
 		"onCommand:tarot.today",
-		"onCommand:tarot.ask"
+		"onCommand:tarot.ask",
+		"onCommand:tarot.vision"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -37,6 +38,10 @@
 			{
 				"command": "tarot.ask",
 				"title": "Daily Tarot: Ask a Question"
+			},
+			{
+				"command": "tarot.vision",
+				"title": "Daily Tarot: The Vision"
 			}
 		]
 	},
