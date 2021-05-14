@@ -58,7 +58,7 @@
 
 ### 0.1.3
 
-- Fix bug: `Daily Crad` status bar cannot be influenced by function `Ask a Question` now.
+- Fix bug: `Daily Card` status bar cannot be influenced by function `Ask a Question` now.
 - When `Daily Card` status bar is already there and function `Draw a Card` is called again, show the name of previous card instead of drawing a new card.
 
 ### 0.1.5
